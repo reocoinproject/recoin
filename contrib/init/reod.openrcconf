@@ -1,0 +1,33 @@
+# /etc/conf.d/reod: config file for /etc/init.d/reod
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/reo/reo.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/reod"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/reod.pid"
+
+# Where to write reod data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/reod"
+
+# User and group to own reod process
+#BITCOIND_USER="reo"
+#BITCOIND_GROUP="reo"
+
+# Path to reod executable
+#BITCOIND_BIN="/usr/bin/reod"
+
+# Nice value to run reod under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#BITCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for reod to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BITCOIND_SIGTERM_TIMEOUT=600

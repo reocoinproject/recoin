@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[reo.qt-translation-020x]
+file_filter = src/qt/locale/reo_<lang>.ts
+source_file = src/qt/locale/reo_en.ts
+source_lang = en

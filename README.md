@@ -2,7 +2,8 @@
 [![N|Solid](https://www.reocoin.live/images/logo-blacks.png)](https://www.reocoin.live)
 =====================================
 
-https://www.reocoin.live
+Website: https://www.reocoin.live
+Explorer: http://explorer.reocoin.live
 
 What is Reo?
 ----------------
